@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E9F49BF75F3890E9176F9E /* Pods_Seapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46E4D6E9DE87C439DDA8660 /* Pods_Seapp.framework */; };
 		2B659ADB1F7E2BF9004C61D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B659ADA1F7E2BF9004C61D0 /* AppDelegate.swift */; };
 		2B659ADD1F7E2BF9004C61D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B659ADC1F7E2BF9004C61D0 /* ViewController.swift */; };
 		2B659AE01F7E2BF9004C61D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B659ADE1F7E2BF9004C61D0 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		2B659AE51F7E2BF9004C61D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B659AE41F7E2BF9004C61D0 /* Assets.xcassets */; };
 		2B659AE81F7E2BF9004C61D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B659AE61F7E2BF9004C61D0 /* LaunchScreen.storyboard */; };
 		2B659AF31F7E2BF9004C61D0 /* SeappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B659AF21F7E2BF9004C61D0 /* SeappTests.swift */; };
+		A2AC5D4EF3193F8BC1688749 /* Pods_SeappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA668FF7031DD38919F026F /* Pods_SeappTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CA668FF7031DD38919F026F /* Pods_SeappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B659AD71F7E2BF9004C61D0 /* Seapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B659ADA1F7E2BF9004C61D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B659ADC1F7E2BF9004C61D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +41,12 @@
 		2B659AEE1F7E2BF9004C61D0 /* SeappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B659AF21F7E2BF9004C61D0 /* SeappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeappTests.swift; sourceTree = "<group>"; };
 		2B659AF41F7E2BF9004C61D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B659AFD1F7E2CB5004C61D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		603ACD3D98E89CB8EE165E6B /* Pods-SeappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeappTests/Pods-SeappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7484504710C48EE558C30473 /* Pods-Seapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Seapp/Pods-Seapp.debug.xcconfig"; sourceTree = "<group>"; };
+		7489C1D404D13A4A9CB23FFE /* Pods-Seapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Seapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Seapp/Pods-Seapp.release.xcconfig"; sourceTree = "<group>"; };
+		992638EF9CF1E352298CBCB1 /* Pods-SeappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeappTests/Pods-SeappTests.release.xcconfig"; sourceTree = "<group>"; };
+		D46E4D6E9DE87C439DDA8660 /* Pods_Seapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Seapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E9F49BF75F3890E9176F9E /* Pods_Seapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2AC5D4EF3193F8BC1688749 /* Pods_SeappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +75,8 @@
 				2B659AD91F7E2BF9004C61D0 /* Seapp */,
 				2B659AF11F7E2BF9004C61D0 /* SeappTests */,
 				2B659AD81F7E2BF9004C61D0 /* Products */,
+				E45CA44960893508EF61CDEF /* Pods */,
+				A8D6865B980B7F5BC6E3ACDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +92,7 @@
 		2B659AD91F7E2BF9004C61D0 /* Seapp */ = {
 			isa = PBXGroup;
 			children = (
+				2B659AFD1F7E2CB5004C61D0 /* GoogleService-Info.plist */,
 				2B659ADA1F7E2BF9004C61D0 /* AppDelegate.swift */,
 				2B659ADC1F7E2BF9004C61D0 /* ViewController.swift */,
 				2B659ADE1F7E2BF9004C61D0 /* Main.storyboard */,
@@ -99,6 +113,26 @@
 			path = SeappTests;
 			sourceTree = "<group>";
 		};
+		A8D6865B980B7F5BC6E3ACDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D46E4D6E9DE87C439DDA8660 /* Pods_Seapp.framework */,
+				1CA668FF7031DD38919F026F /* Pods_SeappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E45CA44960893508EF61CDEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7484504710C48EE558C30473 /* Pods-Seapp.debug.xcconfig */,
+				7489C1D404D13A4A9CB23FFE /* Pods-Seapp.release.xcconfig */,
+				603ACD3D98E89CB8EE165E6B /* Pods-SeappTests.debug.xcconfig */,
+				992638EF9CF1E352298CBCB1 /* Pods-SeappTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B659AF71F7E2BF9004C61D0 /* Build configuration list for PBXNativeTarget "Seapp" */;
 			buildPhases = (
+				1B64937D797681DB4622D2E3 /* [CP] Check Pods Manifest.lock */,
 				2B659AD31F7E2BF9004C61D0 /* Sources */,
 				2B659AD41F7E2BF9004C61D0 /* Frameworks */,
 				2B659AD51F7E2BF9004C61D0 /* Resources */,
+				2B9BD040CEEE8513377D46DC /* [CP] Embed Pods Frameworks */,
+				38665347B12AF0EEE88F60F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B659AFA1F7E2BF9004C61D0 /* Build configuration list for PBXNativeTarget "SeappTests" */;
 			buildPhases = (
+				4CEA7C19EE61D35146015D83 /* [CP] Check Pods Manifest.lock */,
 				2B659AEA1F7E2BF9004C61D0 /* Sources */,
 				2B659AEB1F7E2BF9004C61D0 /* Frameworks */,
 				2B659AEC1F7E2BF9004C61D0 /* Resources */,
+				E17A256FD154CF36C6608A25 /* [CP] Embed Pods Frameworks */,
+				FAFDC4310FAB0F87BA682615 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +236,110 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B64937D797681DB4622D2E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Seapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9BD040CEEE8513377D46DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Seapp/Pods-Seapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seapp/Pods-Seapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38665347B12AF0EEE88F60F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Seapp/Pods-Seapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CEA7C19EE61D35146015D83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17A256FD154CF36C6608A25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeappTests/Pods-SeappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAFDC4310FAB0F87BA682615 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeappTests/Pods-SeappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B659AD31F7E2BF9004C61D0 /* Sources */ = {
@@ -355,6 +499,7 @@
 		};
 		2B659AF81F7E2BF9004C61D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7484504710C48EE558C30473 /* Pods-Seapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +515,7 @@
 		};
 		2B659AF91F7E2BF9004C61D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7489C1D404D13A4A9CB23FFE /* Pods-Seapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +531,7 @@
 		};
 		2B659AFB1F7E2BF9004C61D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603ACD3D98E89CB8EE165E6B /* Pods-SeappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +549,7 @@
 		};
 		2B659AFC1F7E2BF9004C61D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992638EF9CF1E352298CBCB1 /* Pods-SeappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
